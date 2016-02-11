@@ -472,6 +472,10 @@ if(ENABLE_TESTSUITE)
   add_subdirectory(testsuite)
 endif()
 
+
+add_subdirectory(src)
+
+
 #############################################
 # CPack support
 
